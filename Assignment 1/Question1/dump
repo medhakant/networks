@@ -1,0 +1,293 @@
+****************************************************************************************************
+
+Time: 2019-08-01 23:58:43.702588
+
+IITD Host IP: 10.7.174.111
+
+Traceroute result:
+IP: 10.184.0.14& Network Distance: 1 HOP
+IP: 10.254.236.10& Network Distance: 2 HOP
+IP: 10.254.236.18& Network Distance: 3 HOP
+
+Other devices on Network:
+
+**********HOP 1 Distance**********
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-01 23:58 IST
+Nmap scan report for 10.184.0.14
+Host is up (0.0030s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+MAC Address: 40:55:39:0C:9F:C1 (Cisco Systems)
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 4.06 seconds
+
+**********HOP 2 Distance**********
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-01 23:58 IST
+Nmap scan report for 10.254.236.10
+Host is up (0.0017s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=8/1%OT=22%CT=1%CU=44712%PV=Y%DS=2%DC=I%G=Y%TM=5D432F70
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=10B%TI=I%CI=I%TS=3)SEQ(SP=101
+OS:%GCD=1%ISR=10F%TI=I%CI=RD%II=RI%SS=S%TS=3)OPS(O1=M218NNT11%O2=M218NNT11%
+OS:O3=M218NNT11%O4=M218NNT11%O5=M218NNT11%O6=M109NNT11)WIN(W1=C68C%W2=C68C%
+OS:W3=C68C%W4=C68C%W5=C68C%W6=C6A5)ECN(R=Y%DF=N%T=40%W=C898%O=M218%CC=N%Q=)
+OS:T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T
+OS:6(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%
+OS:F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=I%RUCK=0
+OS:%RUD=G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 2 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.73 seconds
+
+**********HOP 3 Distance**********
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-01 23:59 IST
+Nmap scan report for 10.254.236.18
+Host is up (0.0014s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=8/1%OT=22%CT=1%CU=39440%PV=Y%DS=2%DC=I%G=Y%TM=5D432F98
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10E%TI=I%CI=I%TS=3)SEQ(SP=10
+OS:8%GCD=1%ISR=10B%TI=I%CI=I%II=RI%SS=O%TS=3)SEQ(SP=105%GCD=1%ISR=10E%TI=I%
+OS:II=RI%SS=S%TS=3)OPS(O1=M218NNT11%O2=M218NNT11%O3=M218NNT11%O4=M218NNT11%
+OS:O5=M218NNT11%O6=M109NNT11)WIN(W1=8718%W2=8718%W3=8718%W4=8718%W5=8718%W6
+OS:=8765)ECN(R=Y%DF=N%T=40%W=8924%O=M218%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%
+OS:F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
+OS:5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A%A=
+OS:Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=I%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=FF%C
+OS:D=S)
+
+Network Distance: 2 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 39.55 seconds
+
+
+****************************************************************************************************
+
+Time: 2019-08-02 00:02:32.896784
+
+IITD Host IP: 10.7.174.111
+
+Traceroute result:
+IP: 10.184.0.14& Network Distance: 1 HOP
+IP: 10.254.236.10& Network Distance: 2 HOP
+
+Other devices on Network:
+
+**********HOP 1 Distance**********
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-02 00:02 IST
+Nmap scan report for _gateway (10.184.0.1)
+Host is up (0.0020s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+MAC Address: 00:00:5E:00:01:F2 (Icann, Iana Department)
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+Network Distance: 1 hop
+
+Nmap scan report for 10.184.0.2
+Host is up (0.0037s latency).
+Not shown: 995 filtered ports
+PORT      STATE  SERVICE
+22/tcp    open   ssh
+443/tcp   open   https
+3128/tcp  closed squid-http
+8080/tcp  closed http-proxy
+16113/tcp open   unknown
+MAC Address: 00:A3:8E:39:79:3E (Cisco Systems)
+Device type: WAP|printer
+Running (JUST GUESSING): Netgear embedded (87%), HP embedded (85%)
+OS CPE: cpe:/h:netgear:wgr614v7
+Aggressive OS guesses: Netgear WGR614v7 wireless broadband router (87%), HP PSC 2400-series Photosmart printer (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.184.0.13
+Host is up (0.0039s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+MAC Address: 84:78:AC:19:A5:41 (Cisco Systems)
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+Network Distance: 1 hop
+
+Nmap scan report for 10.184.0.14
+Host is up (0.0021s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+MAC Address: 40:55:39:0C:9F:C1 (Cisco Systems)
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (4 hosts up) scanned in 325.01 seconds
+
+**********HOP 2 Distance**********
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-02 00:07 IST
+Nmap scan report for 10.254.236.9
+Host is up (0.0015s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+Device type: switch
+Running: Cisco NX-OS 6.X
+OS CPE: cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus switch (NX-OS 6.0(2))
+
+Nmap scan report for 10.254.236.10
+Host is up (0.0083s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+Network Distance: 2 hops
+
+Nmap scan report for 10.254.236.13
+Host is up (0.0015s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+
+Nmap scan report for 10.254.236.14
+Host is up (0.0057s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+Network Distance: 3 hops
+
+Nmap scan report for 10.254.236.17
+Host is up (0.0076s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+
+Nmap scan report for 10.254.236.18
+Host is up (0.0046s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=8/2%OT=22%CT=1%CU=40115%PV=Y%DS=2%DC=I%G=Y%TM=5D4332E1
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10E%TI=I%CI=I%TS=3)SEQ(SP=10
+OS:5%GCD=1%ISR=109%TI=I%CI=I%II=RI%TS=3)OPS(O1=M218NNT11%O2=M218NNT11%O3=M2
+OS:18NNT11%O4=M218NNT11%O5=M218NNT11%O6=M109NNT11)WIN(W1=9D9C%W2=9D9C%W3=9D
+OS:9C%W4=9D9C%W5=9D9C%W6=9E20)ECN(R=Y%DF=N%T=40%W=A1B4%O=M218%CC=N%Q=)T1(R=
+OS:Y%DF=N%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A
+OS:%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y
+OS:%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%
+OS:O=%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=I%RUCK=0%RUD=
+OS:G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 10.254.236.21
+Host is up (0.0045s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+Device type: switch
+Running: Cisco NX-OS 5.X|6.X
+OS CPE: cpe:/o:cisco:nexus_7000 cpe:/o:cisco:nx_os:5.2 cpe:/o:cisco:nx_os:6.0
+OS details: Cisco Nexus 7000 switch (NX-OS 5.2(4)), Cisco Nexus switch (NX-OS 6.0(2))
+
+Nmap scan report for 10.254.236.22
+Host is up (0.0032s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=8/2%OT=22%CT=1%CU=44508%PV=Y%DS=3%DC=I%G=Y%TM=5D4332E1
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=108%TI=I%CI=I%TS=3)SEQ(SP=10
+OS:5%GCD=1%ISR=10B%TI=I%CI=I%II=RI%TS=3)OPS(O1=M218NNT11%O2=M218NNT11%O3=M2
+OS:18NNT11%O4=M218NNT11%O5=M218NNT11%O6=M109NNT11)WIN(W1=9D9C%W2=9D9C%W3=9D
+OS:9C%W4=9D9C%W5=9D9C%W6=9E20)ECN(R=Y%DF=N%T=41%W=A1B4%O=M218%CC=N%Q=)T1(R=
+OS:Y%DF=N%T=41%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=41%W=0%S=A
+OS:%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=41%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y
+OS:%DF=N%T=41%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=41%W=0%S=Z%A=S%F=AR%
+OS:O=%RD=0%Q=)U1(R=Y%DF=N%T=100%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=I%RUCK=0%RUD
+OS:=G)IE(R=Y%DFI=S%T=100%CD=S)
+
+Network Distance: 3 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (8 hosts up) scanned in 347.29 seconds
+
+
