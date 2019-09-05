@@ -40,7 +40,7 @@ for i in range(len(ipOnRoute)-1):
 dump.write('\n') 
 dump.write("Other devices on Network:\n\n")
 for i in range (len(ipOnRoute)-1):
-	dump.write("*"*10+"HOP "+str(i+1)+" Distance"+"*"*10+"\n\n")
+	dump.write("*"*20+"HOP "+str(i+1)+" Distance"+"*"*20+"\n\n")
 	dump.write(deviceOS[i]+"\n")
 dump.write("\n")
 dump.close()
