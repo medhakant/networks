@@ -52,6 +52,7 @@ def clientthread(conn, addr):
                 if(instruction=="[SEND]"):
                     message = message[len(instruction):]
                     broadcast(message,conn)
+                    print(message)
                 #if instruction is GETKEY, return a key if the user exist or send an error message
                 elif(instruction=="[GETKEY]"):
                     message = message[len(instruction):]
